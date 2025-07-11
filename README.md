@@ -9,7 +9,7 @@ Motivation + bonus step-by-step github authorization setting here: timsh.org
 - Claude somehow paid for
 
 # Steps
-- `https://github.com/tim-sha256/claude-in-docker.git`
+- `git clone https://github.com/tim-sha256/claude-in-docker.git`
 - `cd claude-in-docker`
 - `code` (or open the folder manually in VSCode)
 - a popup in the rear right corner should appear offering to "Reopen in Container" - do it!
