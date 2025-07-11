@@ -1,5 +1,6 @@
 # claude-in-docker
 empty project for a quick setup of Claude in Docker+VSCode
+
 Motivation + bonus step-by-step github authorization setting here: timsh.org
 
 # Prerequisites: 
