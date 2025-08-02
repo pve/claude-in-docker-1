@@ -3,6 +3,9 @@ empty project for a quick setup of Claude in Docker+VSCode
 
 Motivation + bonus step-by-step github authorization setting here: [timsh.org](https://timsh.org/claude-inside-docker/)
 
+Now with docker inside enabled (docker in docker), so it cannot see the images of the host machine.
+Todo: sharing host claude settings
+
 # Prerequisites: 
 - Docker installed
 - VSCode installed

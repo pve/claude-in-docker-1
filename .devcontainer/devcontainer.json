@@ -4,9 +4,17 @@
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "22"
-    }
+    },
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {
+			"version": "latest",
+			"enableNonRootDocker": "true",
+			"moby": "true"
+		}
   },
   "postCreateCommand": "npm install -g @anthropic-ai/claude-code",
+  "mounts": [
+    "source=/etc/localtime,target=/etc/localtime,type=bind,readonly"
+  ],
   "customizations": {
     "vscode": {
       "extensions": [
